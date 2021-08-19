@@ -10,6 +10,4 @@ def main():
 def.hello():
 	return 'I am Good, How about You?'
 	
-If __NAME__ == "__main__":
-	app.run(host="0.0.0.0", port=8080)
 	
