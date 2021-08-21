@@ -9,5 +9,7 @@ def main():
 @app.route("/how are you")
 def.hello():
 	return 'I am Good, How about You?'
-	
+
+If __NAME__ == "__main__":
+	app.run(host="192.168.1.12", port=8080)
 	
