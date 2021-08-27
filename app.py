@@ -1,15 +1,14 @@
 import os
 from flask import Flask
-app = Flask(__NAME__)
+app = Flask(__name__)
 
 @app.route("/")
 def main():
-	return "Welcome!"\
+    return "Welcome!"
 
-@app.route("/how are you")
-def.hello():
-	return 'I am Good, How about You?'
+@app.route('/how are you')
+def hello():
+    return 'I am good, how about you?'
 
-If __NAME__ == "__main__":
-	app.run(host="192.168.1.12", port=8080)
-	
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
